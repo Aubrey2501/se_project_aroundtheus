@@ -48,6 +48,12 @@ project-root
 ├── images
 │ └── # Files with photo images and control buttons
 ├── blocks
+│ ├── header.css
+│ ├── page.css
+│ ├── profile.css
+│ ├── cards.css
+│ ├── card.css
+│ └── footer.css
 ├── vendor
 │ ├── fonts # Files with uploaded fonts
 │ │ ├── Inter_Medium.woff2
