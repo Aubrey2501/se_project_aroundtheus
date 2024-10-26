@@ -71,10 +71,7 @@ project-root
 
 ## How to View the Project
 
-To view the project, simply open the `index.html` file in your preferred web browser.
-
-1. Clone or download the project files to your local machine.
-2. Open the `index.html` file in a web browser.
+To view the project, simply open the `https://aubrey2501.github.io/se_project_aroundtheus/` link in your preferred web browser.
 
 ## Contact
 
