@@ -71,7 +71,7 @@ project-root
 
 ## How to View the Project
 
-To view the project, simply open the `https://aubrey2501.github.io/se_project_aroundtheus/` link in your preferred web browser.
+To view the project, simply open the https://aubrey2501.github.io/se_project_aroundtheus/ link in your preferred web browser.
 
 ## Contact
 
