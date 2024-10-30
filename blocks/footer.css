@@ -1,5 +1,15 @@
-.footer {
-  padding-top: 67px;
-  padding-bottom: 60px;
+.footer__copyright {
+  margin: 0 auto;
+  padding: 0 0 60px;
   color: #545454;
+  font-size: 1;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 661px) {
+  .footer__copyright {
+    font-size: 0.8;
+    line-height: 0.8;
+    padding-bottom: 36px;
+  }
 }
