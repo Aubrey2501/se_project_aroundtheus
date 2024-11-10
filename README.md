@@ -78,4 +78,6 @@ To view the project, simply open the https://aubrey2501.github.io/se_project_aro
 Author: Evgeniy Petrov (odis743@gmail.com)
 https://linkedin.com/evgeniy-petrov-55254b263
 
+Video pesentation: https://drive.google.com/file/d/1-EGI9fZZ7UlxNxd7NHeZJdpaoHj9S_xe/view?usp=drive_link
+
 If you have any questions or feedback, feel free to reach out via email.
