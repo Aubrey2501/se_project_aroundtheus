@@ -1,20 +1,19 @@
 .footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
+  padding: 0 0 60px;
 }
 
 .footer__copyright {
   margin: 0 auto;
-  padding: 0 0 60px;
   color: #545454;
-  font-size: 1;
-  line-height: 1.2;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
 }
 
-@media screen and (max-width: 661px) {
+@media screen and (max-width: 620px) {
   .footer__copyright {
-    font-size: 0.8;
-    line-height: 0.8;
+    font-size: 14px;
+    line-height: 17px;
     padding-bottom: 36px;
   }
 }
