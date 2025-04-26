@@ -1,5 +1,4 @@
 .modal {
-  /* display: none; */
   position: fixed;
   top: 0;
   left: 0;
@@ -22,6 +21,10 @@
   color: black;
   padding: 36px;
   border-radius: 10px;
+}
+
+.modal__form {
+  display: flex;
   flex-direction: column;
 }
 
@@ -37,4 +40,14 @@
   background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
+}
+
+.modal__input {
+  margin-bottom: 10px;
+}
+
+.modal__form_button {
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 5px;
 }
