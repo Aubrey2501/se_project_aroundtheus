@@ -70,3 +70,25 @@
   height: 23px;
   margin: 0 0 54px;
 }
+
+@media screen and (max-width: 620px) {
+  .modal__container {
+    width: 282px;
+    padding: 25px 22px;
+  }
+  .modal__title {
+    font-size: 18px;
+    height: 22px;
+    margin: 0 0 75px;
+  }
+
+  .modal__form-button {
+    margin-top: 15px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  .modal__close {
+    width: 26px;
+    height: 26px;
+}
