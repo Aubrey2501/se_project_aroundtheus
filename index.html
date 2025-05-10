@@ -16,7 +16,7 @@
       <header class="header page__section">
         <img
           class="header__logo"
-          src="./images/Vector.png"
+          src="./images/Vector.svg"
           alt="Around the U.S. logo"
         />
       </header>
@@ -32,6 +32,7 @@
             <button
               class="profile__edit-button"
               id="profile-edit-button"
+              type="button"
             ></button>
             <p class="profile__description">Explorer</p>
           </div>
@@ -49,7 +50,7 @@
 
     <div class="modal" id="profile-edit-modal">
       <div class="modal__container">
-        <button class="modal__close"></button>
+        <button class="modal__close" type="reset"></button>
         <h3 class="modal__title">Edit Profile</h3>
         <form class="modal__form">
           <input
@@ -65,8 +66,9 @@
             name="description"
             placeholder="Description"
             type="text"
+            required
           />
-          <button class="modal__form-button">Save</button>
+          <button class="modal__form-button" type="submit">Save</button>
         </form>
       </div>
     </div>
@@ -76,7 +78,7 @@
         <img src="" alt="" class="card__image" />
         <div class="card__description">
           <h2 class="card__title"></h2>
-          <button class="card__like-button"></button>
+          <button class="card__like-button" type="button"></button>
         </div>
       </li>
     </template>
