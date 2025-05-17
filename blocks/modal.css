@@ -10,7 +10,7 @@
   padding: 0 19px;
 }
 
-.modal__opened {
+.modal_opened {
   display: flex;
 }
 
@@ -21,7 +21,7 @@
   color: black;
   padding: 34px;
   border-radius: 10px;
-  max-width: 358px;
+  max-width: 100%;
 }
 
 .modal__form {
@@ -55,6 +55,10 @@
   border-color: blue;
 }
 
+.modal__close:hover {
+  opacity: 60%;
+}
+
 .modal__form-button {
   border-style: solid;
   border-radius: 2px;
@@ -66,10 +70,14 @@
   font-size: 18px;
 }
 
+.modal__form-button:hover {
+  opacity: 60%;
+}
+
 .modal__title {
   font-size: 24px;
-  font-weight: 900px;
-  line-height: 23px;
+  font-weight: 900;
+  line-height: 24px;
   margin: 0 0 54px;
 }
 
@@ -93,5 +101,7 @@
   .modal__close {
     width: 26px;
     height: 26px;
+    bottom: calc(100% + 13.62px);
+    left: calc(100% - 18.62px);
   }
 }
